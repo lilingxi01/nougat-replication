@@ -1,0 +1,15 @@
+.DS_Store
+
+.nova/
+.idea/
+.vscode/
+.fleet/
+
+__pycache__/
+.pytest_cache/
+
+dist/
+test_output/
+error_logs/
+
+.env
