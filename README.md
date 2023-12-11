@@ -19,13 +19,19 @@ The notebooks are organized in the order of their executions. The notebook 0 to 
 
 ## Environment
 
-The `environment.yml` file is for creating a conda environment used in pre-processing your downloaded arXiv datasets (from downloading to building the seek map). This is made seperated because it can be run on a CPU machine for saving GPU resources.
+### Notebook 0-3: `environment.yml`
 
-To evaluate the dataset on a GPU machine (which actually runs the Nougat model), you probably only need to install the following package:
+The `environment.yml` file is for creating a conda environment used in pre-processing your downloaded arXiv datasets (from downloading to building the seek map, which corresponds to notebooks from 0 to 3). This is made seperated because it can be run on a CPU machine for saving GPU resources.
+
+### Notebook 4: included in the notebook
+
+To evaluate the dataset on a GPU machine (which actually runs the Nougat model, corresponding to notebook 4), you probably only need the following package:
 
 ```bash
 pip install "nougat-ocr[dataset]"
 ```
+
+**Note:** You don't necessarily need to install it in your GPU machine via terminal. The notebook includes necessary installation commands for you!
 
 ## Reference to the original Nougat paper
 
